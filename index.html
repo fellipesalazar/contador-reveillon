@@ -19,18 +19,6 @@
 
         $(document).ready(function () {
 
-            var animationSuccess = null;
-
-                    animationSuccess = lottie.loadAnimation({
-                        container: document.getElementById('fogos'),
-                        renderer: 'svg',
-                        loop: true,
-                        autoplay: false,
-                        path: 'fogos.json'
-                    });
-
-                    animationSuccess.play();
-
             function updateCountdown() {
                 const now = new Date();
                 const nextYear = now.getFullYear() + 1;

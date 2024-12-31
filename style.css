@@ -28,12 +28,12 @@
     .logo {
         position: absolute;
         bottom: 10px;
-        width: 12em;
+        width: 16em;
     }
 
     #countdown {
         text-align: center;
-        font-size: 12em;
+        font-size: 8.5em;
         line-height: 1.2em;
         color: #4d1703;
         font-family: "Black Mango", serif;

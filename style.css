@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'Black Mango';
+    src: url('black-mango-bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* @import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap'); */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+    background-color: #ebeae1;
+    background-image: url("back.png");
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+    .logo {
+        position: absolute;
+        bottom: 10px;
+        width: 20em;
+    }
+
+    #countdown {
+        text-align: center;
+        font-size: 20em;
+        line-height: 1.2em;
+        color: #4d1703;
+        font-family: "Black Mango", serif;
+    }
+
+    #fogos {
+        position: fixed;
+        width: 100vw;
+        inset: 0;
+    }
+}
